@@ -6,7 +6,8 @@ for adding in range(10):
         previous_number = 0
      # making else statment   
     else:
-        current_number = adding + previous_number    
+        current_number = adding 
+        previous_number = adding - 1    
 
     print(f"Current Number {current_number} Previous Number {previous_number} Sum: {current_number + previous_number}")    
-    previous_number = adding
+   
