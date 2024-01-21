@@ -4,3 +4,6 @@ for adding in range(10):
     if adding == 0:
         current_number = adding
         previous_number = 0
+     # making else statment   
+    else:
+        current_number = adding + previous_number    
