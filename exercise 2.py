@@ -9,3 +9,4 @@ for adding in range(10):
         current_number = adding + previous_number    
 
     print(f"Current Number {current_number} Previous Number {previous_number} Sum: {current_number + previous_number}")    
+    previous_number = adding
